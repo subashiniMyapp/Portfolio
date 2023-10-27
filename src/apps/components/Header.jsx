@@ -1,7 +1,7 @@
 import React from 'react';
 export default function Header() {
   const handleDownload = () => {
-    const pdfUrl =  'https://subashinimyapp.github.io/Portfolio/src/assets/subashini_V_resume.pdf';
+    const pdfUrl =  '../src/assets/subashini_V_resume.pdf';
       window.open(pdfUrl, '_blank');
     };
     return (
