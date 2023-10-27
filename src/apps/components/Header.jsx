@@ -1,7 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-
 export default function Header() {
+  const handleDownload = () => {
+    const pdfUrl =  'http://localhost:5173/Portfolio/src/assets/subashini_V_resume.pdf';
+      window.open(pdfUrl, '_blank');
+    };
     return (
      <header className>
       <div className='md:container md:mx-auto pr-4 pl-4  top-10 left-0 right-0 z-100 absolute'>
@@ -36,7 +38,7 @@ export default function Header() {
                   </div>
             </div>
         </div>
-        <a href="#" className=' float-right  mt-7 text-alltext bg-yellow leading-5 cursor-pointer px-7 py-2.5 rounded transition duration-700 ease-in-out 
+        <a href="#"  onClick={handleDownload} className=' float-right  mt-7 text-alltext bg-yellow leading-5 cursor-pointer px-7 py-2.5 rounded transition duration-700 ease-in-out 
                          hover: transform 
                        hover:-translate-y-1.5 hover:scale-120'>Download CV
         </a>

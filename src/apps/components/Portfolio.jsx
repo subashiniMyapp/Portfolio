@@ -60,7 +60,7 @@ export default function Portfolio() {
                     </div>  
                 </div>
             </div>
-            <div className="grid md:grid-cols-3 gap-2 md:mt-14 mt-4">
+            <div className="grid md:grid-cols-3 gap-5 md:mt-14 mt-4">
                 {filterImages &&
                     filterImages.map((item , id)=>{
                         const {imageUrl,url} = item ;

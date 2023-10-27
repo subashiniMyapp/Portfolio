@@ -45,7 +45,7 @@ function Circular() {
   ];
 
   return (
-    <div className='grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-4 text-center'>
+    <div className='grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-4 text-center gap-5'>
       {percen.map((item) => (
         <DynamicCircularProgressBar key={item.id} id={item.id} percentage={item.score} name ={item.name} />
       ))}

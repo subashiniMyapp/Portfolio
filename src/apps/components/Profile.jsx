@@ -1,6 +1,7 @@
 import React from 'react';
 import bgimage from "../../assets/images/new.jpg";
-import profileimg from "../../assets/images/profile-1.jpg";
+import profileimg from "../../assets/images/profile-2.jpg";
+
 
 export default function Profile() {
    return (
