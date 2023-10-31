@@ -38,7 +38,7 @@ export default function Header() {
                   </div>
             </div>
         </div>
-        <a href="../../assets/subashini_V_resume.pdf" target = "_blank"  className=' float-right  mt-7 text-alltext bg-yellow leading-5 cursor-pointer px-7 py-2.5 rounded transition duration-700 ease-in-out 
+        <a href="../../Portfolio/assets/subashini_V_resume.pdf" target = "_blank"  className=' float-right  mt-7 text-alltext bg-yellow leading-5 cursor-pointer px-7 py-2.5 rounded transition duration-700 ease-in-out 
                          hover: transform 
                        hover:-translate-y-1.5 hover:scale-120'>Download CV
         </a>
