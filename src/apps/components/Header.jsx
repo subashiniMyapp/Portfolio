@@ -5,6 +5,7 @@ export default function Header() {
     const pdfUrl =  '/Portfolio/src/assets/subashini_V_resume.pdf';
       window.open(pdfUrl, '_blank');
     };
+ const urls = `${process.env.PUBLIC_URL}/src/assets/subashini_V_resume.pdf`;
     return (
      <header className>
       <div className='md:container md:mx-auto pr-4 pl-4  top-10 left-0 right-0 z-100 absolute'>
@@ -39,10 +40,10 @@ export default function Header() {
                   </div>
             </div>
         </div>
-        <a href="" onClick={handleDownload}  className=' float-right  mt-7 text-alltext bg-yellow leading-5 cursor-pointer px-7 py-2.5 rounded transition duration-700 ease-in-out 
+{/*         <a href="https://subashinimyapp.github.io/Portfolio/src/assets/subashini_V_resume.pdf" target = "_blank"  className=' float-right  mt-7 text-alltext bg-yellow leading-5 cursor-pointer px-7 py-2.5 rounded transition duration-700 ease-in-out 
                          hover: transform 
                        hover:-translate-y-1.5 hover:scale-120'>Download CV
-        </a>
+        </a> */}
       </div>
      </header>
     )
