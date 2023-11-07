@@ -35,7 +35,7 @@ export default function Profile() {
                               </ul>
                               <ul className=' m-0 p-0'>
                                 <li className=' m-0 p-0 inline-block'>
-                                    <a href="www.linkedin.com/in/subha-velaytham-6baa241ba" 
+                                    <a href="www.linkedin.com/in/subha-velaytham-6baa241ba" target="_blank"
                                     className=' bg-socialicon  hover:bg-yellow text-alltext inline-block no-underline 
                                                 p-0 cursor-pointer h-9 w-9 leading-10 rounded-need overflow-hidden 
                                                 z-1 relative mx-1 mb-1 mt-0 transition-all duration-0.2 ease-in-out
