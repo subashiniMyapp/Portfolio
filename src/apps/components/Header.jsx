@@ -1,7 +1,8 @@
 import React from 'react';
+import resume from "../../assets/subashini_V_resume.pdf";
 export default function Header() {
   const handleDownload = () => {
-    const pdfUrl =  'http://localhost:5173/Portfolio/src/assets/subashini_V_resume.pdf';
+    const pdfUrl =  '/Portfolio/src/assets/subashini_V_resume.pdf';
       window.open(pdfUrl, '_blank');
     };
     return (
@@ -38,7 +39,7 @@ export default function Header() {
                   </div>
             </div>
         </div>
-        <a href="#"  onClick={handleDownload} className=' float-right  mt-7 text-alltext bg-yellow leading-5 cursor-pointer px-7 py-2.5 rounded transition duration-700 ease-in-out 
+        <a href="" onClick={handleDownload}  className=' float-right  mt-7 text-alltext bg-yellow leading-5 cursor-pointer px-7 py-2.5 rounded transition duration-700 ease-in-out 
                          hover: transform 
                        hover:-translate-y-1.5 hover:scale-120'>Download CV
         </a>
