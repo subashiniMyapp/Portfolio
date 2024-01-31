@@ -15,6 +15,19 @@ export function Experience(){
                         </div>
                     </div>
                     <div className=' col-span-2 px-4'>
+                       <div className=" text-alltext mb-12">
+                                <h4 className=" text-xl	">
+                                    <strong>Web developer</strong>
+                                </h4>
+                                <h5 className=" text-yellow">
+                                    <strong>HEPL</strong>
+                                </h5>
+                                <h6 className="mt-2.5">JANUARY 2024 - PRESENT</h6>
+                                <p className=" my-7">
+                                    I began my developer journey at HEPL and have grown to a full-stack developer, 
+                                    honing my skills and expertise with a focus on internal websites and e-commerce website.
+                                </p>
+                        </div>
                         <div className=" text-alltext mb-12">
                                 <h4 className=" text-xl	">
                                     <strong>PHP web developer</strong>
@@ -22,7 +35,7 @@ export function Experience(){
                                 <h5 className=" text-yellow">
                                     <strong>AAHA SOLUTIONS</strong>
                                 </h5>
-                                <h6 className="mt-2.5">MAY 2022 - PRESENT</h6>
+                                <h6 className="mt-2.5">MAY 2022 - DECEMBER 2023</h6>
                                 <p className=" my-7">
                                     I began my developer journey at AAHA Solutions and have grown to a mid-level PHP developer, 
                                     honing my skills and expertise with a focus on open cart educational website and e-commerce website.
